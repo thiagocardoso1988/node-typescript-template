@@ -1,8 +1,8 @@
-import StartController from '@controllers/startController'
-import express from 'express'
+import StartController from '@controllers/startController';
+import express from 'express';
 
-const app = express()
+const app = express();
 
-app.get('/', StartController)
+app.get('/', StartController);
 
-app.listen(3000)
+app.listen(3000);
