@@ -5,5 +5,5 @@ import { Router } from 'express';
 export default (): Router => glob
   .sync('**/*.ts', { cwd: `${__dirname}/` })
   .map((filename) => require(`./${filename}`))
-  .filter((router) => Object.getPrototypeOf(router.default || router.default || router) === Router)
+  .filter((router) => Object.getPrototypeOf(router.default) === Router)
   .reduce((rootRouter, router) => rootRouter.use(router.default), Router({ mergeParams: true }));
