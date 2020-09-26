@@ -1,7 +1,8 @@
+import StartController from '@controllers/startController'
 import express from 'express'
 
 const app = express()
 
-app.get('/', (request, response) => response.json('Hello world!'))
+app.get('/', StartController)
 
 app.listen(3000)
