@@ -11,6 +11,7 @@ Template de uma aplicação em NodeJS com as principais ferramentas utilizadas n
 
 Ainda existem outras ferramentas que pretendo incluir futuramente, mas fique à vontade para mandar seu PR caso queira contribuir:
 - TypeORM
+- DotEnv
 
 ## Como usar
 
