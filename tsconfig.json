@@ -22,6 +22,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
+      "@app/*": ["./src/app/*"],
       "@controllers/*": ["./src/app/controllers/*"],
       "@database/*": ["./database/*"],
       "@lib/*": ["./lib/*"],

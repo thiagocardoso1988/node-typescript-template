@@ -1,8 +1,3 @@
-import StartController from '@controllers/startController';
-import express from 'express';
+import app from '@app/app';
 
-const app = express();
-
-app.get('/', StartController);
-
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
