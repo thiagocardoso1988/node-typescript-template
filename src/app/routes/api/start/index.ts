@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import Start from './api/start';
+import Get from './get';
 
 const router = Router({ mergeParams: true });
 
-router.use(Start);
+router.use(Get);
 
 export default router;

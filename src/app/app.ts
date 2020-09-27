@@ -20,7 +20,7 @@ class App {
   }
 
   routes() {
-    this.express.use(router());
+    this.express.use(router);
   }
 }
 
