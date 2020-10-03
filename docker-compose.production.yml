@@ -1,0 +1,11 @@
+app:
+  build: ./
+  volumes:
+    - ./:/var/www/app
+  ports:
+    - 80:3000
+  environment:
+    - NODE_ENV=production
+    - PORT=3000
+  command:
+    sh -c 'NODE_ENV=development yarn install && yarn build;yarn start | ./node_modules/.bin/bunyan'
