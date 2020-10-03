@@ -25,7 +25,7 @@
       "@app/*": ["./src/app/*"],
       "@controllers/*": ["./src/app/controllers/*"],
       "@database/*": ["./database/*"],
-      "@lib/*": ["./lib/*"],
+      "@libs/*": ["./src/libs/*"],
       "@middlewares/*": ["./src/app/middlewares/*"],
       "@models/*": ["./src/app/models/*"],
       "@repositories/*": ["./src/app/repositories/*"],
