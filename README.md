@@ -8,12 +8,22 @@ Template de uma aplicação em NodeJS com as principais ferramentas utilizadas n
 - Babel ([link](https://babeljs.io/))
 - Jest ([link](https://jestjs.io/))
 - Supertest ([link](https://github.com/visionmedia/supertest))
+- Bunyan ([link](https://github.com/trentm/node-bunyan))
+- Socket<span></span>.io ([link](https://socket.io))
 
 Ainda existem outras ferramentas que pretendo incluir futuramente, mas fique à vontade para mandar seu PR caso queira contribuir:
 - TypeORM
 - DotEnv
 
 ## Como usar
+
+> **Modo de Produção**:
+>
+> Para subir o servidor em modo de produção, o template usa automaticamente HTTPS.
+>
+>  Para tanto, é necessário adicionar seus certificados na pasta `/ssl`, no lugar dos arquivos `server.crt` e `server.key`.crt
+
+De acordo com o ambiente, execute os comandos abaixo:
 
 ```bash
 # para instalação das dependências
